@@ -17,6 +17,7 @@
 }*/
 .foto__block{
 	position: relative;
+	margin-right: -28px;
 }
 .foto__block:hover .foto__text{
 	opacity: 1;
@@ -47,7 +48,8 @@
 .foto__img{
 	display: inline-block;
 	position: relative;
-	padding-left: 26px;
+	/*padding-left: 26px;*/
+	padding-right: 26px;
     padding-bottom: 26px;
     width: 270px;
     height: 200px;
