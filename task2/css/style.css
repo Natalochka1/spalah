@@ -249,11 +249,6 @@ h2{
 	text-align: center;
 	font-family: 'SegoeWPLight', sans-serif;
 }
-/*.footer span{
-	padding-left: 22px;
-	color: #9f9f9f;
-	font-family: 'SegoeWPLight', sans-serif;
-}*/
 .footer a{
 	color: #9f9f9f;
 	text-decoration: none;
@@ -504,6 +499,11 @@ input[type="button"]{
 .container{
 	width: 975px;
 	margin: 0 auto;
+}
+.title_img{
+	height:346px;
+	top: 140px;
+	left: 0;
 }	
 .menu img{
 	display: none;
@@ -540,49 +540,63 @@ input[type="button"]{
 button.slick-prev.slick-arrow{
 	display: block;
 	position: relative;
-	top: 330px;
-	left: 60px;
+	top: 303px;
+	left: 73px;
 	width: 50px;
 	height: 50px;
-    z-index: 99;
+    z-index: 1;
 }
 button.slick-next.slick-arrow{
 	display: block;
 	position: relative;
 	top: 250px;
 	left: 840px;
-	width: 50px;
-	height: 50px;
-	z-index: 99;
+	width: 40px;
+	height: 66px;
+	z-index: 1;
 }
-button.slick-prev.slick-arrow:before{
-	/*z-index: 99;*/
+.slick-track:before{
+	background: url(../images/arrow-left.png)no-repeat;
+	position: absolute;
+	z-index: 1000;
+	width: 40px;
+	height: 66px;
+	top: 270px;
+	left: 85px;
+}
+.slick-track:after{
+	background: url(../images/arrow-right.png)no-repeat;
+	position: absolute;
+    top: 268px;
+    left: 850px;
+    width: 40px;
+    height: 66px;
+    z-index: 1000;
+}
+/*button.slick-prev.slick-arrow:before{
+	z-index: 99;
     position: absolute;
     top: 230px;
     left: 60px;
     width: 50px;
     height: 50px;
-    width: 50px;
-    height: 50px;
     background: url(../images/arrow-left.png);
-}
-button.slick-next.slick-arrow:before{
-	/*z-index: 99;*/
+}*/
+/*button.slick-next.slick-arrow:before{
+	z-index: 99;
 	background: url(../images/arrow-right.png);
 	position: absolute;
     top: 230px;
     left: 60px;
     width: 50px;
     height: 50px;
-    width: 50px;
-    height: 50px;
-}
-.slick-prev:before{
+}*/
+/*.slick-prev:before{
   content: '';
 }
 .slick-next:before{
   content: '';
-}
+}*/
 div.slick-list.draggable{
   position: absolute;
   top: 0;
@@ -594,10 +608,6 @@ div.slick-slide.slick-current.slick-active{
   top: 0;
   left: 0;
   z-index: 999;
-}
-.title_img{
-	top: 200px;
-	left: 100px;
 }
 h3{
 	padding-top: 195px;

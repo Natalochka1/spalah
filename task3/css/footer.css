@@ -1,0 +1,23 @@
+
+.footer{
+	padding-top: 45px;
+	padding-bottom: 45px;
+	overflow: hidden;
+	width: 1920px;
+}
+.bg--deepgray{
+	background: #131316;
+}
+.footer__container{
+	width: 1145px;
+	margin: 0 auto;
+}
+.footer__text{
+	color: #ffeb33;
+	font-size: 13px;
+	float: left;
+}
+.footer__img{
+	float: right;
+	padding-left: 30px;
+}

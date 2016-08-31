@@ -1,0 +1,28 @@
+.btn__info{
+	width: 440px;
+	height: 50px;
+	background: #ffeb33;
+	border: none;
+	color: #fff;
+	font-size: 13px;
+	padding-left: 30px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.btn--right{
+	margin-right: 0;
+}
+.btn--subject{
+	width: 935px;
+}
+.btn--message{
+	width: 935px;
+	height: 180px;
+}
+.btn--submit{
+	width: 965px;
+	background: #131316;
+	text-align: center;
+	font-size: 19px;
+	color: #ffeb33;
+}

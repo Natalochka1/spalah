@@ -1,0 +1,18 @@
+
+.clients__block{
+    padding-top: 120px;
+	padding-bottom: 120px;
+}
+.bg--darkgray{
+	background: #424245;
+}
+.clients__container{
+	width: 1085px;
+	margin: 0 auto;
+}
+.client__item{
+	padding-right: 119px;
+}
+.last--item{
+	padding-right: 0;
+}
