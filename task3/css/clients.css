@@ -13,6 +13,9 @@
 .client__item{
 	padding-right: 119px;
 }
+.client__item:hover{
+	opacity: 0.5;
+}
 .last--item{
 	padding-right: 0;
 }

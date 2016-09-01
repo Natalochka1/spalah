@@ -19,12 +19,14 @@
 	text-align: center;
 	padding-bottom: 50px;
 	color: #fff;
+	font-family: 'open_sanslight', sans-serif;
 }
 .header__main--title{
     text-align: center;
     font-size: 37px;
     color: #ffe600;
     padding-bottom: 110px;
+    font-family: 'open_sanslight', sans-serif;
 }
 .header__btn{
 	padding: 23px 75px;
@@ -34,13 +36,12 @@
 	display: block;
 	margin: 0 auto;
 	cursor: pointer;
+	font-family: 'open_sanslight', sans-serif;
 }
 .header__btn:hover{
 	display: block;
 	background: #ffe600;
+	transition: 0.3s;
+	opacity: 0.8; 
 }
-.arrow__img{
-    display: block;
-    margin: 0 auto;
-    padding-top: 45px;
-}
+

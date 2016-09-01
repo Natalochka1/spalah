@@ -7,19 +7,20 @@
 	width: 1170px;
 	margin: 0 auto;
 }
-/*.foto__block__img:hover .is--hover{
-    display: block;
-}
-.is--hover{
-	display: none;
-    width: 270px;
-    height: 200px;
-}*/
 .foto__block{
-	position: relative;
 	margin-right: -28px;
 }
-.foto__block:hover .foto__text{
+.foto__item{
+	position: relative;
+	width: 270px;
+	height: 200px;
+	margin: 0;
+	display: inline-block;
+	position: relative;
+	padding-right: 26px;
+    padding-bottom: 26px;
+}
+.foto__item:hover .foto__text{
 	opacity: 1;
 }
 .foto__text{
@@ -37,6 +38,7 @@
 	top: 75px;
 	left: 85px;
 	font-size: 19px;
+	font-family: 'open_sansregular', sans-serif;
 }
 .foto__text__text{
 	position: absolute;

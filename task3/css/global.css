@@ -1,3 +1,35 @@
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('../fonts/opensans-italic-webfont.eot');
+    src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-italic-webfont.woff') format('woff'),
+         url('../fonts/opensans-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
 	margin: 0;
 	padding: 0;
@@ -9,7 +41,7 @@
 
 html, body{
 	height: 100%;
-	font-family: Arial, sans-serif;
+	font-family: 'open_sanslight', sans-serif;
 }
 
 .clearfix:after{
@@ -32,5 +64,23 @@ html, body{
 .footer{
 	overflow: hidden;
 	width: 1920px;
+}
+.arrow__img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.title{
+	font-size: 20px;
+	text-align: center;
+	font-family: 'open_sansregular', sans-serif;
+}
+.subtitle{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 127px;
+	font-size: 13px;
+	color: #ffe600;
+	font-family: 'open_sansregular', sans-serif;
 }
 
