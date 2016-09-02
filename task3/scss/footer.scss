@@ -1,0 +1,32 @@
+
+.footer{
+  padding-top: 45px;
+  padding-bottom: 45px;
+  overflow: hidden;
+  width: 1920px;
+}
+.bg--deepgray{
+  background: $deepgray;
+}
+.footer__container{
+  width: 1145px;
+  margin: 0 auto;
+}
+.footer__text{
+  color: $lightyellow;
+  font-size: $fontSize-smaller;
+  float: left;
+}
+.footer__link{
+  float: right;
+}
+.footer__img{
+  margin-left: 30px;
+   -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.footer__img:hover{
+  color: $lightyellow;
+     -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}

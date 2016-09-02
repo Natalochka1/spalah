@@ -1,16 +1,17 @@
-
-.bg--gray{
-	background: #89898b;
+.bg--gray {
+  background: #89898b;
 }
 
-.bg-yellow{
-	background: #ffeb33; 
+.bg-yellow {
+  background: #ffeb33;
 }
 
-.bg--darkgray{
-	background: #424245;
+.bg--darkgray {
+  background: #424245;
 }
 
-.bg--deepgray{
-	background: #131316;
+.bg--deepgray {
+  background: #131316;
 }
+
+/*# sourceMappingURL=bg.css.map */

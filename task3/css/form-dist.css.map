@@ -1,0 +1,1 @@
+{"version":3,"sources":["form.css"],"names":[],"mappings":"AAAA,aACC,kBAAmB,oBACG,CACtB,iBAEA,YAAa,aACE,CACf","file":"form-dist.css","sourcesContent":[".form__block{\r\n\tpadding-top: 120px;\r\n\tpadding-bottom: 120px;\r\n}\r\n.form__container{\r\n\twidth: 965px;\r\n\tmargin: 0 auto;\r\n}"]}

@@ -1,37 +1,46 @@
+.nav__container {
+  width: 1130px;
+  margin: 0 auto;
+}
 
-.nav__container{
-	width: 1130px;
-	margin: 0 auto;
+.nav__head {
+  display: block;
+  padding-top: 35px;
+  padding-bottom: 75px;
+  border-bottom: 1px solid #ffe600;
 }
-.nav__head{
-	display: block;
-	padding-top: 35px;
-	padding-bottom: 75px;
-	border-bottom: 1px solid #ffe600;
+
+.nav__logo {
+  float: left;
 }
-.nav__logo{
-	float: left;
+
+.nav__menu {
+  float: right;
 }
-.nav__menu{
-	float: right;
+
+.nav__item {
+  float: left;
+  margin: 10px;
 }
-.nav__item{
-	float: left;
-	margin: 10px;
+
+.nav__link:hover .link--hover {
+  display: block;
 }
-.nav__link:hover .link--hover{
-	display: block;
+
+.nav__link {
+  padding: 10px;
+  text-decoration: none;
+  color: #8e8e8e;
+  font-size: 13px;
 }
-.nav__link{
-	padding: 10px;	
-	text-decoration: none;
-	color: #8e8e8e;
-	font-size: 13px;
+
+.nav__link:hover {
+  border: 1px solid #ffe600;
 }
-.nav__link:hover{
-	border: 1px solid #ffe600;
+
+.is-active {
+  border: 1px solid #ffe600;
+  font-family: 'open_sansregular', sans-serif;
 }
-.is-active{
-	border: 1px solid #ffe600;
-	font-family: 'open_sansregular', sans-serif;
-}
+
+/*# sourceMappingURL=nav.css.map */

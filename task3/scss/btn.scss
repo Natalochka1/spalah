@@ -1,0 +1,28 @@
+.btn__info{
+  width: 440px;
+  height: 50px;
+  background: $lightyellow;
+  border: none;
+  color: $white;
+  font-size: $fontSize-smaller;
+  padding-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.btn--right{
+  margin-right: 0;
+}
+.btn--subject{
+  width: 935px;
+}
+.btn--message{
+  width: 935px;
+  height: 180px;
+}
+.btn--submit{
+  width: 965px;
+  background: $black;
+  text-align: center;
+  font-size: $fontSize-base;
+  color: $lightyellow;
+}
