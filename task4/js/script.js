@@ -41,10 +41,6 @@ $('.center').slick({
 });
 
 
-// $('.btn__play').click(function(){
-// $('video')[0].play();
-// })
-
 
 $(document).ready(function(){
     var controls = {
