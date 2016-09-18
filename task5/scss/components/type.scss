@@ -1,0 +1,132 @@
+$brand-color: #23b7a4;
+$white: white;
+$dark: #292f36;
+$darken: #1d2126;
+$gray: #3a454d;
+$lightgray: #8d8f92;
+$gray-hover: #4e5a62;
+$link-color: #a4aead;
+$description-color: #ccd0d7;
+$social-bg: #c8cdd0;
+$card-bg: #e1e6ea;
+$body-color: #000 !default;
+$body-bg: #fff !default;
+$font-size-large: 20px;
+$font-size-base: 16px;
+$font-size-small: 14px;
+$line-height-base: 26px;
+$font-family-base: 'Open Sans', sans-serif;
+$font-weight-normal: 400;
+$margin-bottom-p: 15px !default;
+$link-color-hover: lighten($link-color, 10%)!default;
+$link-decoration: none;
+$link-decoration-hover: none;
+$list-style: none;
+$heading-font-family: 'Quattrocento Sans', sans-serif;
+$heading-font-weight: 700;
+$heading-color: inherit !default;
+$heading-font-size-1: 36px;
+$heading-margin-1: 1em !default;
+$heading-font-size-2: 30px !default;
+$heading-margin-2: 1em !default;
+$heading-font-size-3: 24px !default;
+$heading-margin-3: 1em !default;
+$heading-font-size-4: 18px;
+$heading-margin-4: 1em !default;
+$heading-font-size-5: 16px;
+$heading-margin-5: 1em !default;
+$heading-font-size-6: 14px;
+$heading-margin-6: 1em !default;
+
+
+$lineHeight-tightest: 0px;
+$lineHeight-tighter: 10px;
+$lineHeight-tight: 18px;
+$lineHeight-base: 26px;
+$lineHeight-loose: 35px;
+$lineHeight-looser: 42px;
+body {
+    color: $body-color;
+    background-color: $body-bg;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    font-family: $font-family-base;
+    font-weight: $font-weight-normal;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: $margin-bottom-p;
+}
+
+a {
+    color: $link-color;
+    text-decoration: $link-decoration;
+    list-style: $list-style;
+    &:hover {
+        color: $link-color-hover;
+        text-decoration: $link-decoration-hover;
+    &:active {
+        color: $brand-color;
+    }
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
+    color: $heading-color;
+}
+
+h1,
+.h1 {
+    font-size: $heading-font-size-1;
+    margin: $heading-margin-1;
+}
+
+h2,
+.h2 {
+    font-size: $heading-font-size-2;
+    margin: $heading-margin-2;
+}
+
+h3,
+.h3 {
+    font-size: $heading-font-size-3;
+    margin: $heading-margin-3;
+}
+
+h4,
+.h4 {
+    font-size: $heading-font-size-4;
+    margin: $heading-margin-4;
+}
+
+h5,
+.h5 {
+    font-size: $heading-font-size-5;
+    margin: $heading-margin-5;
+}
+
+h6,
+.h6 {
+    font-size: $heading-font-size-6;
+    margin: $heading-margin-6;
+    line-height: $lineHeight-tighter;
+}
+
+
+
+
+
