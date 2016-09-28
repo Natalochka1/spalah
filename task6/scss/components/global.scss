@@ -1,6 +1,6 @@
-$container-width: 1170px !default;
+$container-width: 1055px !default;
 $container-gutter: 0 10px !default;
-
+$container-width: 1055px;
 html {
     box-sizing: border-box;
     -webkit-text-size-adjust: 100%;
@@ -11,8 +11,6 @@ html {
 &:after {
     box-sizing: inherit;
 }
-
-
 
 body {
     margin: 0;
@@ -30,13 +28,13 @@ img {
 	height: 100vh;
 	table-layout: fixed;
 }
-
 .footer {
 	display: table-footer-group;
 	height: 1%;
 }
-.container{
-	margin: auto;
-	width: $container-width;
+
+.container {
+	margin: 0 auto;
+	max-width: $container-width;
 	padding: 0 $container-gutter;
 }

@@ -1,0 +1,46 @@
+.nav{
+	padding-top: 15px;
+	padding-bottom: 53px;
+	border-bottom: 1px solid $lightengray;
+	    &-block{
+	    	border-bottom: none;
+	    	padding-top: 15px;
+	        padding-bottom: 53px;
+	    }
+        &__list{
+	        float: right;
+    }
+        &__item{
+	        float: left;
+	        list-style: none;
+	        padding-left: 30px;
+    }
+        &__link{
+	        font-family: $font-family-nav;
+	        font-weight: $font-weight-nav;
+	        font-size: $font-size-nav;
+	    &:hover{
+		        color: $white;
+	}
+}
+	&__dark{
+		font-family: $font-family-nav;
+	    font-weight: $font-weight-nav;
+	    font-size: $font-size-nav;
+		&:hover{
+			color: $color-title;
+		}
+	}
+}
+.is-active{
+	padding: 10px;
+	background: $gray-dark;
+	color: $white;
+	border-radius: 1px;
+	&-green{
+		background-color: $green;
+		padding: 10px;
+	    color: $white;
+	    border-radius: 1px;
+	}
+}

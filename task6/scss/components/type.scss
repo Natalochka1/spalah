@@ -1,0 +1,182 @@
+$white: white;
+$lightgray: #b3bfbf;
+$medium-gray: #83a7a5;
+$gray: #4d6d6e;
+$bg-color: #eef1ec;
+$color-title: #0f5f5c;
+$green-gray: #2d6e70;
+$green: #6fb048;
+$darkgreen: #49732f;
+$gray-dark: #6d8180;
+$input-color: #eef1ec;
+$blue: #55acee;
+$darkblue: #3b5998;
+$middleblue: #3f729b;
+$pink: #ea4c89;
+$black: #000;
+$lightengray: #b8ccc8;
+$link-color: $lightgray;
+
+
+$body-color: #000 !default;
+$body-bg: #fff !default;
+
+$font-size-base: 16px !default;
+$line-height-base: 1.4 !default;
+$font-family-base: 'Roboto', sans-serif !default;
+
+$font-family: 'Merriweather', serif;
+
+$font-family-nav: 'Montserrat', sans-serif;
+$font-weight-nav: 400;
+$font-size-nav: 13px;
+
+$margin-bottom-p: 15px !default;
+
+$link-color: blue !default;
+$link-color-hover: lighten($link-color, 10%)!default;
+$link-decoration: none !default;
+$link-decoration-hover: none!default;
+
+$heading-font-family: 'Roboto', sans-serif;
+$heading-font-weight: 400;
+$heading-color: inherit !default;
+$heading-font-size-1: 38px !default;
+$heading-margin-1: 1em !default;
+$heading-font-size-2: 32px !default;
+$heading-margin-2: 1em !default;
+$heading-font-size-3: 22px !default;
+$heading-margin-3: 1em !default;
+$heading-font-size-4: 18px !default;
+$heading-margin-4: 1em !default;
+$heading-font-size-5: 15px !default;
+$heading-margin-5: 1em !default;
+$heading-font-size-6: 12px !default;
+$heading-margin-6: 1em !default;
+
+$font-size-description: 14px;
+
+$font-size-subtitle: 15px;
+$font-size-text: 22px;
+$font-size-title: 32px;
+$font-size-maim: 50px;
+$font-size-price: 65px;
+$font-size-title-sm: 28px;
+
+$font-weight-title: 300;
+
+$font-weight-heading: 500;
+
+
+$lineHeight-tightest: 0px;
+$lineHeight-tighter: 10px;
+$lineHeight-tight: 18px;
+$lineHeight-medium: 21px;
+$line-height-middle: 24px;
+$lineHeight-base: 26px;
+$lineHeight-loose: 28px;
+$lineHeight-loosest: 38px;
+$lineHeight-large: 40px;
+$lineHeight-looser: 42px;
+$line-height-larger: 60px;
+$lineHeight-largest: 108px;
+
+
+body {
+    color: $body-color;
+    background-color: $body-bg;
+    font-size: $font-size-description;
+    line-height: $line-height-base;
+    font-family: $font-family-base;
+    font-weight: $heading-font-weight;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: $margin-bottom-p;
+}
+
+a {
+    color: $link-color;
+    text-decoration: $link-decoration;
+    cursor: pointer;
+    &:hover {
+        color: $link-color-hover;
+        text-decoration: $link-decoration-hover;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
+    color: $heading-color;
+}
+
+h1,
+.h1 {
+    font-size: $heading-font-size-1;
+    margin: $heading-margin-1;
+    line-height: $lineHeight-medium;
+}
+
+h2,
+.h2 {
+    font-family: $font-family-base;
+    font-weight: $font-weight-title;
+    line-height: $lineHeight-medium;
+    font-size: $heading-font-size-2;
+    margin: $heading-margin-2;
+    color: $color-title;
+}
+
+h3,
+.h3 {
+    font-family: $font-family-base;
+    font-weight: $font-weight-title;
+    font-size: $heading-font-size-3;
+    margin: $heading-margin-3;
+    color: $color-title;
+    text-align: center;
+}
+
+h4,
+.h4 {
+    font-size: $heading-font-size-4;
+    font-weight: $font-weight-title;
+    margin: $heading-margin-4;
+    color: $color-title;
+
+}
+
+h5,
+.h5 {
+    font-family: $font-family-base;
+    font-size: $heading-font-size-5;
+    margin: $heading-margin-5;
+    line-height: $lineHeight-medium;
+    font-weight: $font-weight-heading;
+    color: $green;
+    text-align: center;
+}
+
+h6,
+.h6 {
+    font-size: $heading-font-size-6;
+    margin: $heading-margin-6;
+}
+
+
+
+
+

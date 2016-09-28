@@ -1,0 +1,37 @@
+.feature{
+	&-icon{
+		margin: 0 auto;
+		display: block;
+		padding: 27px;
+	}
+	&-img{
+		padding: 15px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	&-title-item{
+		display: inline-block;
+	}
+	&-title{
+		text-align: center;
+		color: $color-title;
+        font-family: $font-family-base;
+        font-size: $font-size-base;
+        font-weight: $heading-font-weight;
+        line-height: $lineHeight-medium;
+        padding-bottom: 20px;
+	}
+	&-description{
+		text-align: center;
+		font-family: $font-family-base;
+        font-size: $font-size-description;
+        font-weight: $heading-font-weight;
+        line-height: $lineHeight-medium;
+	}
+	&-description-left{
+        font-family: $font-family-base;
+        font-size: $font-size-description;
+        font-weight: $heading-font-weight;
+        line-height: $lineHeight-medium;
+	}
+}

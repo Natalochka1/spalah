@@ -1,0 +1,74 @@
+$form-color: #000;
+$form-bg: transparent;
+$form-border: 2px solid #c1d3d2;
+$form-border-radius: 2px !default;
+$form-height: 46px;
+$height: 124px;
+$padding: 20px;
+$padding-left: 20px;
+$form-padding-x: 20px !default;
+$form-font-size: 14px !default;
+$form-line-height: 28px !default;
+$form-margin-bottom: 20px !default;
+
+$form-label-color: #eaeef1 !default;
+$form-label-font-size: 14px !default;
+$form-label-margin-bottom: 4px !default;
+
+$lightengray: #b8ccc8;
+$gray: #4d6d6e;
+$color: #4d6d6e;
+
+
+@mixin placeholder($color, $opacity: 1) {
+    &::-webkit-input-placeholder {
+        color: $color;
+        opacity: $opacity;
+        padding: $padding; 
+        @content;
+    }
+    &::-moz-placeholder {
+        color: $color;
+        opacity: $opacity;
+        @content;
+    }
+    &:-ms-input-placeholder {
+        color: $color;
+        opacity: $opacity;
+        @content;
+    }
+}
+
+@mixin form-variants($color, $bg, $border-color) {
+    color: $color;
+    background-color: $bg;
+    border-color: $border-color;
+}
+
+@mixin form-size($height, $padding, $form-font-size, $border-radius: $form-border-radius, $line-height: $form-line-height) {
+    $padding-y: ($height - ($form-font-size * $form-line-height)) / 2;
+    font-size: $form-font-size;
+    border-radius: $border-radius;
+    height: $height;
+    line-height: $line-height;
+    padding: $padding-y $padding;
+}
+
+.form {
+    &-group {
+        margin-bottom: $form-margin-bottom;
+    }
+    &-info{
+        background: $form-bg;
+        color: $gray;
+        width: 100%;
+        height: $form-height;
+        border: $form-border;
+        @include placeholder(#b8ccc8);
+    }
+    &-message{
+    height: 124px;
+    padding: 20px 0 90px 0;
+}
+}
+

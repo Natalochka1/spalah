@@ -1,0 +1,361 @@
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('../fonts/Proxima Nova Bold.otf');
+}
+
+@import "components/variables.scss";
+@import "components/mixins.scss";
+@import "components/global.scss";
+@import "components/type.scss";
+@import "components/btns.scss";
+@import "components/forms.scss";
+@import "components/block.scss";
+@import "components/grid.scss";
+@import "components/nav.scss";
+@import "components/features.scss";
+
+.bg {
+	&-dark {
+		background-color: $bg-color;
+		color: $medium-gray;
+	}
+	&-light {
+		background-color: $white;
+		color: $medium-gray;
+	}
+	&-primary {
+		background-color: $green-gray;
+		color: $white;
+	}
+	&-image{
+		background: url(../images/bg2.png);
+	}
+	&-img{
+		background: url(../images/bg-img-1.png);
+	}
+	&-img__green{
+		background: url(../images/bg4.png);
+		color: $white;
+	}
+}
+h1,h4{
+	margin-left: 0;
+}
+h2,{
+    text-align: center;
+    line-height: $lineHeight-loosest;
+}
+.h2{
+    font-family: $font-family-base;
+    font-weight: $font-weight-title;
+    line-height: $lineHeight-medium;
+    font-size: $heading-font-size-2;
+    margin: $heading-margin-2;
+    text-align: center;
+	color: $green;
+}
+.wrapper{
+	width: 1500px;
+} 
+.image-bg{
+	background-image: url(../images/bg.png);
+}
+.block-header__block{
+	padding-top: 30px;
+	float: left;
+}
+.logo{
+	padding-right: 25px;
+	border-right: 1px solid $lightengray;
+	vertical-align: middle;
+}
+.logo__phone{
+	padding-left: 25px;
+	vertical-align: middle;
+}
+.phone__number{
+	display: inline-block;
+	vertical-align: middle;
+	font-family: $font-family-nav;
+	font-weight: $font-weight-nav;
+	font-size: $font-size-nav;
+}
+.description{	    
+	    font-weight: $heading-font-weight;
+	&-header{
+		font-size: $font-size-nav;
+	    line-height: $line-height-middle;
+	    padding-bottom: 30px;
+	}
+	&-header__main{
+		font-size: $font-size-maim; 
+		font-weight: $font-weight-title;
+		line-height: $line-height-larger;
+		text-align: center;
+		padding: 30px;
+	}
+	&-contant{
+		line-height: $lineHeight-medium;
+		padding-bottom: 30px;
+	}
+	&-item{
+		display: inline-block;
+        padding-bottom: 30px;
+	}
+	&-item-sm{
+		font-size: $heading-font-size-6;
+		padding-bottom: 30px;
+		display: inline-block;
+	}
+	&-text{
+        font-size: $font-size-text;
+        font-family: $font-family;
+        font-weight: $font-weight-title;
+        line-height: $lineHeight-large;
+        padding-top: 60px;
+        padding-bottom: 10px;
+	}
+	&-name{
+		color: $green;
+		line-height: $lineHeight-medium;
+	}
+	&-person{
+		color: $color-title;
+	}
+	&-map{
+	    line-height: $line-height-middle;
+	    color: $medium-gray;
+	}
+	&-position{
+        line-height: $lineHeight-medium;
+	}
+	&-link{
+		color: $color-title;
+		font-size: $heading-font-size-4;
+		line-height: $lineHeight-medium;		
+	}
+	&-contact{
+		padding: 0 0 25px 23px;
+
+	}
+}
+.link{
+	text-align: center;
+}
+.title{
+    font-weight: $font-weight-title;
+    line-height: $lineHeight-medium;
+    font-size: $heading-font-size-2;
+    margin: $heading-margin-2;
+    color: $color-title;
+    margin-left: 0;
+    &-img{
+    	display: block;
+	    margin: 0 auto;
+    }
+    &-sm{
+    	font-size: $font-size-title-sm;
+    	font-weight: $font-weight-title;
+        line-height: $lineHeight-medium;
+        margin: $heading-margin-2;
+        color: $color-title;
+        margin: 15px 0 15px 0;
+    }
+    &-white{
+        color: $white;
+        font-weight: $font-weight-title;
+        line-height: $lineHeight-medium;
+        font-size: $font-size-title-sm;
+        margin: $heading-margin-2;
+        padding: 40px 0 5px 0;
+        margin: 0;
+        }
+}
+.subtitle{
+	text-align: center;
+    font-size: $font-size-subtitle;
+    line-height: $lineHeight-medium;
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    &-heading{
+    	width: 717px;
+    	text-align: center;
+    	margin: 0 auto;
+    	padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+.contant{
+    &-block{
+	    padding-top: 75px;
+    }
+    &-block__inner{
+    	padding: 40px 0 60px 0;
+    }
+    &-img{
+    	padding-right: 15px;
+    	display: inline-block;
+    	vertical-align: middle;
+    }
+    &-img__team{
+    	padding-top: 35px;
+    	padding-bottom: 20px;
+    }
+    &-checkbox{
+    	padding-right: 5px;
+    	display: inline-block;
+    	vertical-align: middle;
+    }
+}
+.column-left{
+	padding: 20px 0 0 100px;
+}
+.column{
+	border: 1px solid $lightgray;
+	padding: 10px 34px 30px 34px;
+	float: left;
+	width: 33%;
+	&-block{
+		overflow: hidden;
+		padding: 50px 150px 30px 150px;
+	}
+	&-price{
+		text-align: center;
+		color: $color-title;
+        font-family: $font-family-nav;
+        font-size: $font-size-price;
+        line-height: $lineHeight-largest;
+	}
+	&-time{
+		text-align: center;
+		color: $color-title;
+        line-height: $lineHeight-medium;
+	}
+	&-item{
+		text-align: center;
+        padding: 20px;
+        line-height: $lineHeight-loose;
+	}
+}
+.contact{
+	padding: 50px 0;
+	&-info{
+        border: 1px dashed $lightengray;
+        padding: 10px 40px 40px 40px;
+	}
+	&-icon{
+		float: left;
+		padding-top: 5px;
+	}
+	&-number{
+		font-size: $font-size-subtitle;
+		padding: 2px 0 10px 23px;
+	}
+	&-link{
+		color: $color-title;
+		font-size: $font-size-subtitle;
+		padding-left: 8px;
+	}
+	&-block{
+		padding: 48px 0;
+	}
+}
+.info{
+	&-block{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+    &-content{
+    	padding: 30px 0;
+    }
+}
+.download-block{
+	padding: 15px 0;
+}
+.footer{
+	&-item{
+		list-style: none;
+		line-height: $lineHeight-loose;
+	}
+	&-info{
+		padding-left: 0;
+	}
+	&-block{
+		padding: 50px 0 35px 0;
+	}
+	&-img{
+		padding-top: 20px;
+	}
+	&-link{
+		line-height: $lineHeight-loose;
+		font-size: $font-size-nav;
+	}
+	&-link__title{
+		font-weight: $font-weight-heading;
+		color: $color-title;
+	}
+	&-form{
+		position: relative;
+	}
+	&-form__letter{
+		position: relative;
+        background-color: $input-color;
+        border: none;
+        padding: 8px 65px 8px 15px;
+        margin-top: 15px;
+	}
+	&-submit__letter{
+		position: absolute;
+		background: transparent;
+		border: none;
+		top: 20px;
+		right: 10px;
+	}
+	&-form__img{
+		position: absolute;
+		top: 20px;
+		right: 10px;
+	}
+}
+.social{
+    &-block{
+	    border-top: 1px solid #ccc;
+    }
+    &-block__left{
+    	float: left;
+    	padding: 40px 0 30px 0;
+    }
+    &-box{
+    	float: right;
+    	padding: 30px 0 30px 0;
+    }
+    &-icon{
+    	background: #ccc;
+    	padding: 10px;
+    	border-radius: 50%;
+    	float: left;
+    	margin-left: 10px;
+    	&:hover{
+    	opacity: 0.7;
+    }
+    }
+}
+.blue{
+	background: $blue;
+}
+.darkblue{
+	background: $darkblue;
+	padding: 10px 16px;
+} 
+.middleblue{
+    background: $middleblue;
+}
+.pink{
+	background: $pink;
+}
+.black{
+	background: $black;
+}
+
