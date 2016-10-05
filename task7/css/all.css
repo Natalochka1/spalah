@@ -490,7 +490,6 @@ h6,
   line-height: 20px;
   font-size: 12px;
   font-family: Arial, sans-serif;
-  font-weight: 700;
 }
 
 .download-block {
@@ -517,8 +516,9 @@ h6,
 }
 
 .footer-link {
-  line-height: 24px;
+  line-height: 26px;
   font-size: 12px;
+  font-family: Arial, sans-serif;
   color: #363636;
   text-decoration: none;
 }

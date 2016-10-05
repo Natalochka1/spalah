@@ -246,7 +246,6 @@
     	text-align: center;
 		background-color: $blue;
 		display: inline-block;
-		// padding: 5px 7px;
 		border-radius: 100%; 
 	}
 }
@@ -278,7 +277,6 @@
 		line-height: $lineHeight-medium;
 		font-size: $heading-font-size-6;
 		font-family: $font-family-base;
-		font-weight: $font-weight-bold;
 	}
 }
 .download-block{
@@ -299,10 +297,11 @@
 	    padding: 0 0 20px 30px;
 }
     &-link{
-	line-height: $line-height-middle;
-	font-size: $heading-font-size-6;
-	color: $gray;
-	text-decoration: none;
+    	line-height: $lineHeight-base;
+		font-size: $heading-font-size-6;
+		font-family: $font-family-base;
+	    color: $gray;
+	    text-decoration: none;
 }
     &-bottom{
     	padding-bottom: 30px;
