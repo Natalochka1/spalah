@@ -1,0 +1,20 @@
+.pagination-block{
+	display: block;
+	margin: 0 auto;
+	max-width: 245px;
+	padding-top: 20px;
+	border: none;
+}
+.pagination-link{
+	border: none;
+	color: $black;
+	background-color: #fff;
+
+}
+.pagination-link:hover{
+	background-color: $bg-primary;
+}
+.pagination-main{
+	background-color: $bg-primary;
+	color: $black;
+}

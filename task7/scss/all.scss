@@ -1,0 +1,353 @@
+@import "components/variables.scss";
+@import "components/mixins.scss";
+
+@import "components/global.scss";
+@import "components/type.scss";
+@import "components/btns.scss";
+@import "components/forms.scss";
+@import "components/block.scss";
+@import "components/media.scss";
+
+
+
+
+
+// .block {
+// 	&-header {
+// 		background-color: blue;
+// 	}
+// 	&-content {
+// 		background-color: green;
+// 	}
+// 	&-footer {
+// 		background-color: yellow;
+// 	}
+// }
+
+// bgs
+.bg {
+	&-dark {
+		background-color: #e8ebf1;
+		color: #363636;
+	}
+	&-light {
+		background-color: #fff;
+		color: #363636;
+	}
+	&-color{
+		background-color: #81e4ed;
+	}
+}
+// .wrapper{
+// 	max-width: 480px;
+// }
+// .container{
+// 	width: 320px;
+// 	margin: 0 10px;
+// }
+// .logo-menu{
+// 	float: right;
+// 	display: block;
+// }
+// .menu-list{
+// 	// display: none;
+// }
+// .carousel-title{
+// 	position: absolute;
+// 	left: 0;
+// 	top: 0;
+// }
+// .title-main{
+// 	font-size: $heading-font-size-6;
+// 	font-weight: $font-weight-bold;
+// 	font-family: $font-family;
+// 	text-align: left;
+// 	padding: 60px 0;
+// 	color: $white;
+// 	max-width: 300px;
+// }
+// .logo-menu:hover.navbar{
+//      display: block;
+//      cursor: pointer;
+// }
+
+
+
+
+.block__header{
+	padding: 40px 0 0 0;
+}
+.nav__item{
+	list-style: none;
+	text-decoration: none;
+}
+.dropdown{
+	list-style: none;
+	text-decoration: none;
+	color: $black;
+}
+.dropdown-inner{
+	display: none;
+	position: absolute;
+	top: 28px;
+	left: 0;
+	z-index: 99;
+    width: 235px;
+    border-bottom: 4px solid $blue;
+    list-style: none;
+    background-color: #fff;
+    padding-left: 0;
+}
+.dropdown:hover .dropdown-inner{
+	display: block;
+}
+.dropdown-item{
+	border-bottom: 1px solid $bg-dark;
+	padding: 10px;
+}
+.dropdown-link{
+	font-weight: $font-weight-bold;
+	text-decoration: none;
+	color: $black;
+	padding: 8px;
+	&:hover{
+		color: $blue;
+		text-decoration: none;
+	}
+}
+.nav__link{
+	padding: 12px 20px;
+	color: $black;
+	text-decoration: none;
+	font-weight: $font-weight-bold;
+	&:hover{
+		text-decoration: none;
+		color: $blue;
+		border-top: 4px solid $blue;
+	}
+}
+.dropdown:hover .dropdown-toggle{
+	background-color: $white;
+}
+.carousel{
+	max-width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+}
+.item{
+	position: relative;
+}
+.overlay{
+    position: absolute;
+    top: -35px;
+    left: 410px;
+    z-index: 99;
+}
+.overlay-img{
+    position: absolute;
+    top: 0;
+    left: 553px;
+    z-index: 99;
+}
+.carousel-title{
+	// width: 300px;
+	position: absolute;
+	left: 70px;
+	top: 0;
+}
+.title-main{
+	font-size: $font-size-large;
+	font-weight: $font-weight-bold;
+	font-family: $font-family;
+	text-align: left;
+	padding: 60px 0;
+	color: $white;
+	max-width: 300px;
+}
+.content-block{
+	padding: 30px 0;
+	border-bottom: 1px solid $bg-dark;
+	border-top: 1px solid $bg-dark;
+}
+.content-item{
+	width: 160px;
+	height: 100px;
+	border: 1px solid #ссс;
+	position: relative;
+	display: inline-block;
+	box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; 
+}
+.content-img{
+	width: 100%;
+}
+.content-box{
+	padding: 30px 0;
+}
+.content-client{
+	position: relative;
+}
+.content-client__img{
+	position: absolute;
+	top: 0;
+	left: 0;
+    right: 0;
+    bottom: 0;
+	margin: auto;
+}
+.content-icon{
+	padding: 27px 19px;
+}
+.content-card{
+    position: relative;
+}
+.content-card:hover .content-overlay{
+	display: block;
+}
+.content-overlay{
+	display: none;
+	position: absolute;
+	background-color: $blue;
+	top: 111px;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	padding: 0 60px;
+}
+.title{
+	font-weight: $font-weight-bold;
+	font-size: $heading-font-size-5;
+	font-family: $font-family-base;
+	display: inline-block;
+	margin: 13px;
+	&-footer{
+		font-weight: $font-weight-bold;
+	font-size: $heading-font-size-5;
+	font-family: $font-family-base;
+	display: inline-block;
+	margin: 13px;
+		margin-left: 0;
+	}
+}
+.icon{
+	padding-right: 2px;
+	&-right{
+	    padding: 5px 9px;
+	    background-color: $bg-primary;
+	    display: inline-block;
+	    border-radius: 100%;
+	    margin-left: 6px;
+}
+    &-feature{
+		background-color: $blue;
+		padding: 5px 7px;
+		border-radius: 100%; 
+	}
+}
+.block-feature{
+	padding: 50px 0;
+}
+.description{
+	font-size: $font-size-base;
+	padding-bottom: 20px;
+	line-height: $line-height-middle;
+	&-link{
+		color: $blue;
+		display: inline-block;
+		font-size: $font-size-base;
+	}
+	&-subtitle{
+		font-weight: $font-weight-bold;
+	    font-size: $font-size-base;
+	    font-family: $font-family-base;
+	    // font-style: italic;
+	}
+	&-text{
+		line-height: $lineHeight-base;
+		font-size: $font-size-tight;
+		font-weight: $font-weight-base;
+		padding-bottom: 20px;
+	}
+	&-footer{
+		line-height: $lineHeight-medium;
+		font-size: $heading-font-size-6;
+		font-family: $font-family-base;
+		font-weight: $font-weight-bold;
+	}
+}
+.download-block{
+	padding: 35px;
+	background-color: $lightblue;
+	border: 1px solid $bg-primary;
+} 
+.btn-text{
+	color: $black;
+}
+.button-icon{
+	padding: 0 15px 0 0;
+}
+.footer{
+	padding: 30px 0;
+	display: block;
+    &-img{
+	    padding: 0 0 20px 30px;
+}
+    &-link{
+	line-height: $line-height-middle;
+	font-size: $heading-font-size-6;
+	color: $gray;
+	text-decoration: none;
+}
+    &-bottom{
+    	padding-bottom: 30px;
+    }
+}
+.left-pull{
+	margin-left: 35px;
+}
+.address-list{
+	font-size: $font-size-base;
+}
+.navigation{
+	border-top: 1px solid $bg-dark;
+	padding: 20px 0;
+}
+.navigation-link{
+	color: $black;
+	font-weight: $font-weight-bold;
+	font-size: $heading-font-size-5;
+	&:hover{
+	background-color: transparent;
+	color: $black;
+    }
+}
+.pagination-block{
+	display: block;
+	margin: 0 auto;
+	max-width: 245px;
+	padding-top: 20px;
+}
+.navigation-main{
+	color: $black;
+	background-color: $bg-primary;
+	border-radius: none; 
+}
+.row-padding{
+	padding-bottom: 30px;
+}
+.form-control:focus{
+	 
+}
+.active{
+	background-color: $bg-primary;
+}
+.line-bottom{
+	border-bottom: 1px solid $bg-dark;
+}
+.map-block{
+	padding: 25px;
+	background-color: $bg-primary;
+	border: 1px solid $blue;
+	margin-bottom: 30px;
+}

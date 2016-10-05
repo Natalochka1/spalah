@@ -30,12 +30,6 @@ html, body{
 	font: 'SegoeWPLight', sans-serif;
     list-style: none;
 }
-
-/*.clearfix:after{
-	content: '' ;
-	display: block;
-	clear: both;
-}*/
 .wrapper{
 	display: table;
 	overflow: hidden;
