@@ -452,21 +452,21 @@ $nav-pills-active-link-hover-color:         $component-active-color !default;
 //
 //##
 
-$pagination-color:                     $link-color !default;
+$pagination-color:                     #000;
 $pagination-bg:                        #fff !default;
-$pagination-border:                    #ddd !default;
+$pagination-border:                    transparent;
 
-$pagination-hover-color:               $link-hover-color !default;
+$pagination-hover-color:               #000;
 $pagination-hover-bg:                  $gray-lighter !default;
-$pagination-hover-border:              #ddd !default;
+$pagination-hover-border:              transparent;
 
-$pagination-active-color:              #fff !default;
-$pagination-active-bg:                 $brand-primary !default;
-$pagination-active-border:             $brand-primary !default;
+$pagination-active-color:              #000;
+$pagination-active-bg:                 red;
+$pagination-active-border:             transparent;
 
-$pagination-disabled-color:            $gray-light !default;
-$pagination-disabled-bg:               #fff !default;
-$pagination-disabled-border:           #ddd !default;
+$pagination-disabled-color:            #000;
+$pagination-disabled-bg:               #fff;
+$pagination-disabled-border:           transparent;
 
 
 //== Pager

@@ -1,3 +1,64 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "custom/_variables.scss";
+@import "bootstrap/mixins";
+
+// Reset and dependencies
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+@import "bootstrap/glyphicons";
+
+// Core CSS
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+
+// Components
+@import "bootstrap/component-animations";
+@import "bootstrap/dropdowns";
+@import "bootstrap/button-groups";
+@import "bootstrap/input-groups";
+@import "bootstrap/navs";
+@import "bootstrap/navbar";
+
+@import "bootstrap/breadcrumbs";
+@import "bootstrap/pagination";
+@import "custom/_pagination.scss";
+
+@import "bootstrap/pager";
+@import "bootstrap/labels";
+@import "bootstrap/badges";
+@import "bootstrap/jumbotron";
+@import "bootstrap/thumbnails";
+@import "bootstrap/alerts";
+@import "bootstrap/progress-bars";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/panels";
+@import "bootstrap/responsive-embed";
+@import "bootstrap/wells";
+@import "bootstrap/close";
+
+// Components w/ JavaScript
+@import "bootstrap/modals";
+@import "bootstrap/tooltip";
+@import "bootstrap/popovers";
+@import "bootstrap/carousel";
+
+// Utility classes
+@import "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";
+
 @import "components/variables.scss";
 @import "components/mixins.scss";
 
@@ -6,10 +67,6 @@
 @import "components/btns.scss";
 @import "components/forms.scss";
 @import "components/block.scss";
-@import "components/media.scss";
-
-
-
 
 
 // .block {
@@ -23,6 +80,7 @@
 // 		background-color: yellow;
 // 	}
 // }
+
 
 // bgs
 .bg {
@@ -38,44 +96,8 @@
 		background-color: #81e4ed;
 	}
 }
-// .wrapper{
-// 	max-width: 480px;
-// }
-// .container{
-// 	width: 320px;
-// 	margin: 0 10px;
-// }
-// .logo-menu{
-// 	float: right;
-// 	display: block;
-// }
-// .menu-list{
-// 	// display: none;
-// }
-// .carousel-title{
-// 	position: absolute;
-// 	left: 0;
-// 	top: 0;
-// }
-// .title-main{
-// 	font-size: $heading-font-size-6;
-// 	font-weight: $font-weight-bold;
-// 	font-family: $font-family;
-// 	text-align: left;
-// 	padding: 60px 0;
-// 	color: $white;
-// 	max-width: 300px;
-// }
-// .logo-menu:hover.navbar{
-//      display: block;
-//      cursor: pointer;
-// }
-
-
-
-
-.block__header{
-	padding: 40px 0 0 0;
+.menu-list{
+	padding: 20px 0 10px;
 }
 .nav__item{
 	list-style: none;
@@ -116,7 +138,7 @@
 	}
 }
 .nav__link{
-	padding: 12px 20px;
+	padding: 12px 8px;
 	color: $black;
 	text-decoration: none;
 	font-weight: $font-weight-bold;
@@ -152,7 +174,6 @@
     z-index: 99;
 }
 .carousel-title{
-	// width: 300px;
 	position: absolute;
 	left: 70px;
 	top: 0;
@@ -167,7 +188,7 @@
 	max-width: 300px;
 }
 .content-block{
-	padding: 30px 0;
+	padding: 30px 0 0 0;
 	border-bottom: 1px solid $bg-dark;
 	border-top: 1px solid $bg-dark;
 }
@@ -201,6 +222,11 @@
 }
 .content-card{
     position: relative;
+    padding: 0 0 30px 0;
+}
+.content-icon__box{
+	display: block;
+	margin: 0 auto;
 }
 .content-card:hover .content-overlay{
 	display: block;
@@ -209,11 +235,11 @@
 	display: none;
 	position: absolute;
 	background-color: $blue;
-	top: 111px;
+	bottom: 29px;
 	left: 0;
 	z-index: 99;
 	width: 100%;
-	padding: 0 60px;
+	height: 40%;
 }
 .title{
 	font-weight: $font-weight-bold;
@@ -233,6 +259,7 @@
 .icon{
 	padding-right: 2px;
 	&-right{
+		float: right;
 	    padding: 5px 9px;
 	    background-color: $bg-primary;
 	    display: inline-block;
@@ -294,7 +321,7 @@
 	padding: 30px 0;
 	display: block;
     &-img{
-	    padding: 0 0 20px 30px;
+	    padding: 0 0 20px 23px;
 }
     &-link{
     	line-height: $lineHeight-base;
@@ -322,26 +349,14 @@
 	font-weight: $font-weight-bold;
 	font-size: $heading-font-size-5;
 	&:hover{
-	background-color: transparent;
+	background-color: $bg-primary;
 	color: $black;
     }
-}
-.pagination-block{
-	display: block;
-	margin: 0 auto;
-	max-width: 245px;
-	padding-top: 20px;
 }
 .navigation-main{
 	color: $black;
 	background-color: $bg-primary;
 	border-radius: none; 
-}
-.row-padding{
-	padding-bottom: 30px;
-}
-.form-control:focus{
-	 
 }
 .active{
 	background-color: $bg-primary;
@@ -355,3 +370,7 @@
 	border: 1px solid $blue;
 	margin-bottom: 30px;
 }
+
+
+@import "custom/_navbar.scss";
+@import "custom/_pagination.scss";

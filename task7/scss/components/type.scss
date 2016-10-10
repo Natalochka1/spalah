@@ -8,6 +8,9 @@ $blue: #2aacc8;
 $body-color: #000 !default;
 $body-bg: #fff !default;
 
+$navbar-default-bg: #e8ebf1;
+$navbar-default-border: #e8ebf1;
+
 $font-size-large: 50px;
 $font-size-base: 13px !default;
 $font-size-tight: 16px;
@@ -54,7 +57,7 @@ $lineHeight-looser: 42px;
 $line-height-larger: 60px;
 $lineHeight-largest: 108px;
 
-// font-family: 'Lato', sans-serif;
+
 body {
     color: $body-color;
     background-color: $body-bg;

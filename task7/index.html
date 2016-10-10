@@ -9,22 +9,23 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <body>
-<div class="wrapper">
+<div class="wrapper"> 
     <div class="block block-collapse">
-        <div class="block block-collapse bg-dark">
-            <div class="container">
-                <div class="block__header">
-                    <div class="row">
-                        <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">           
-                            <img class="logo-main" src="images/logo-main.png">
-                        </div>
-                        <div class="col-xs-offset-1 col-xs-7 col-lg-8">     
-                        <!-- <a class="logo-menu" href="#"><img class="logo-menu" src="images/logo-menu.png"></a> -->
-                           <div class="navbar pull-right" class="dropdown-toggle">    
-                                <ul class="menu-list pull-right">
-                                    <li class="nav__item pull-left"><a class="nav__link" href="#">HOME</a></li>
-                                    <li class="nav__item pull-left"><a class="nav__link" href="#">ABOUT US</a></li>
-                                    <li role="presentation" class="dropdown pull-left"><a class="dropdown-toggle nav__link" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">SERVISES<span class="caret"></span></a>
+        <nav class="navbar-default" role="navigation">
+            <div class="navbar-header">
+                <div class="container">
+                    <a class="navbar-brand navbar-left" href="#"><img class="logo-main" src="images/logo-main.png"></a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>     
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="menu-list pull-right">
+                                <li class="nav__item pull-left"><a class="nav__link" href="#">HOME</a></li>
+                                <li class="nav__item pull-left"><a class="nav__link" href="#">ABOUT US</a></li>
+                                <li role="presentation" class="dropdown pull-left"><a class="dropdown-toggle nav__link" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">SERVISES<span class="caret"></span></a>
                                     <ul class="dropdown-inner dropdown-toggle">
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Web Design</a></li>
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Wordpress Design</a></li>
@@ -32,8 +33,8 @@
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Internet Marketing</a></li>
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Social Media Management</a></li>
                                     </ul>
-                                    </li>
-                                    <li role="presentation" class="dropdown pull-left"><a class="dropdown-toggle nav__link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO<span class="caret"></span></a>
+                                </li>
+                                <li role="presentation" class="dropdown pull-left"><a class="dropdown-toggle nav__link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO<span class="caret"></span></a>
                                     <ul class="dropdown-inner dropdown-toggle" >
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Web Design</a></li>
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Wordpress Design</a></li>
@@ -41,16 +42,14 @@
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Internet Marketing</a></li>
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Social Media Management</a></li>
                                     </ul>
-                                    </li>                            
-                                    <li class="nav__item pull-left"><a class="nav__link" href="#">BLOG</a></li>
-                                    <li class="nav__item pull-left"><a class="nav__link" href="#">CONTACT US</a></li>
-                                </ul>
-                           </div>
-                        </div>                   
-                    </div>
+                                </li>                            
+                                <li class="nav__item pull-left"><a class="nav__link" href="#">BLOG</a></li>
+                                <li class="nav__item pull-left"><a class="nav__link" href="#">CONTACT US</a></li>
+                            </ul>
+                        </div>
                 </div>
             </div>
-        </div>
+        </nav>               
     </div>
         <div class="block bg-color">
             <div class="block-inner">
@@ -124,7 +123,7 @@
                 <div class="container">
                     <div class="block-feature">
                     <div class="row">
-                        	    <div class="col-lg-3">
+                        	    <div class="col-xs-6 col-sm-6 col-md-3">
                         	        <div class="icon-box">
                         		        <img class="icon-feature" src="images/icon1.png">
                         		    </div>
@@ -133,7 +132,7 @@
                         		    	<img class="icon" src="images/ICON7.png">
                                         <a href="#"><div class="description-link">Read More</div></a>
                         	    </div>
-                        	    <div class="col-lg-3">
+                        	    <div class="col-xs-6 col-sm-6 col-md-3">
                         		    <div class="icon-box">
                         		        <img class="icon-feature" src="images/icon2.png">
                         		    </div>
@@ -142,7 +141,7 @@
                         		        <img class="icon" src="images/ICON7.png">
                                         <a href="#"><div class="description-link">Read More</div></a>
                         	    </div>
-                        	    <div class="col-lg-3">
+                        	    <div class="col-xs-6 col-sm-6 col-md-3">
                         		    <div class="icon-box">
                         		        <img class="icon-feature" src="images/icon3.png">
                         		    </div>
@@ -151,7 +150,7 @@
                         		        <img class="icon" src="images/ICON7.png">
                                         <a href="#"><div class="description-link">Read More</div></a>
                         	    </div>
-                        	    <div class="col-lg-3">
+                        	    <div class="col-xs-6 col-sm-6 col-md-3">
                         		    <div class="icon-box">
                         		        <img class="icon-feature" src="images/icon4.png">
                         		    </div>
@@ -169,18 +168,18 @@
                 <div class="block-inner">
                     <div class="container">
                         <div class="row">
-                            <div class=" col-xs-8 col-sm-6 col-md-6 col-lg-2">
+                            <div class="col-xs-7 col-sm-7 col-md-7">
                                 <img class="icon" src="images/icon5.png">
                                 <div class="title">LATEST WORKS</div>
                             </div>
-                            <div class=" col-xs-4 col-lg-offset-9 col-lg-1">
+                            <div class="col-xs-5 col-sm-5 col-md-5">
                                 <a href="#"><img class="icon-right" src="images/ICON6.png"></a>
                                 <a href="#"><img class="icon-right" src="images/ICON7.png"></a>
                             </div>
                         </div>
                         <div class="content-block"> 
                             <div class="row ">
-                        	    <div class="col-xs-12 col-sm-9 col-md-6 col-lg-3">
+                        	    <div class="col-sm-6 col-md-6 col-lg-3">
                         	        <div class="content-card">
                         		        <img class="content-img" src="images/img1.png">
                         		        <div class="content-overlay">
@@ -189,7 +188,7 @@
                         		        </div>
                         		    </div>
                         	    </div>
-                        	    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        	    <div class="col-sm-6 col-md-6 col-lg-3">
                         		    <div class="content-card">
                         		        <img class="content-img" src="images/img2.png">
                         		        <div class="content-overlay">
@@ -198,7 +197,7 @@
                         		        </div>
                         		    </div>
                         	    </div>
-                        	    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        	    <div class="col-sm-6 col-md-6 col-lg-3">
                         		    <div class="content-card">
                         		        <img class="content-img" src="images/img3.png">
                         		        <div class="content-overlay">
@@ -207,7 +206,7 @@
                         		        </div>
                         		    </div>
                         	    </div>
-                        	    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                        	    <div class="col-sm-6 col-md-6 col-lg-3">
                         		    <div class="content-card">
                         		        <img class="content-img" src="images/img4.png">
                         		        <div class="content-overlay">
@@ -220,13 +219,13 @@
                         </div>
                         <div class="content-box">
                         	<div class="row">
-                        		<div class="col-xs-12 col-lg-5">
+                        		<div class="col-xs-12 col-sm-5 col-lg-5">
                         			<img class="icon" src="images/icon10.png">
                                     <div class="title">TESTIMONIALS</div>
                                     <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut nulla sapien, at aliquam erat. Sed vitae massa tellus. Aliquam commodo aliquam metus, sed iaculis nibh tempus id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Etiam nec nisi in nisl euismod fringilla.</div>
                                     <em><div class="description-subtitle">John Travis, CEO, DomainName.com</div></em>
                         		</div>                       		
-                       		    <div class="col-xs-offset-2 col-xs-10 col-lg-offset-1 col-lg-6">
+                       		    <div class="col-xs-offset-2 col-xs-10 col-sm-offset-1 col-sm-6 col-lg-offset-1 col-lg-6">
                         		    <img class="icon" src="images/icon11.png">
                                     <div class="title">OUR CLIENTS</div>
                                 <div class="row">
@@ -272,11 +271,11 @@
                     <div class="container">
                         <div class="footer">
                         <div class="row">
-                        	<div class="col-lg-3">
+                        	<div class="col-xs-2 col-sm-3">
                         		<div class="title-footer">ABOUT US</div>
                         		    <div class="description-footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros. Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum molestie. </div>
                         	</div>
-                        	<div class=" col-lg-1">
+                        	<div class="col-xs-1 col-sm-1">
                         		<div class="title-footer">EXPLORE</div>                       		
                         			<a class="footer-link" href="#">Home</a>
                         			<a class="footer-link" href="#">About Us</a>
@@ -284,7 +283,7 @@
                         			<a class="footer-link" href="#">Portfolio</a>
                         			<a class="footer-link" href="#">Blog</a>
                         	</div>
-                        	<div class="col-lg-offset-1 col-lg-2">
+                        	<div class="col-xs-offset-1 col-xs-2 col-sm-offset-1 col-sm-2">
                         		<div class="title-footer">BROWSE</div><br>
                         			<a class="footer-link" href="#"> Careers</a><br>
                         			<a class="footer-link" href="#">Press&Media</a><br>
@@ -292,7 +291,7 @@
                         			<a class="footer-link" href="#">Terms of Servise</a><br>
                         			<a class="footer-link" href="#">Privacy Polic</a>
                         	</div>
-                        	<div class="col-lg-2">
+                        	<div class="col-xs-2 col-sm-2">
                         		<div class="title-footer">CONTACT US</div>
                         		<address class="address-list">
                                     <strong>BisLife, Inc.</strong><br>
@@ -303,7 +302,7 @@
                                     <abbr title="Fax">Fax:</abbr> (343) 486-67-90
                                 </address>
                         	</div>
-                        	<div class="col-lg-3">
+                        	<div class="col-xs-4 col-sm-3 col-md-3">
                         		<div class="title-footer left-pull">CONNECT WITH US</div>
                         		    <div class="footer-img__block">
                         		        <a href="#"><img class="footer-img" src="images/fb.png"></a>
@@ -318,10 +317,10 @@
                     </div>
                     <div class="footer-bottom">
                         <div class="row">
-                        	<div class="col-lg-7">
+                        	<div class="col-xs-6 col-sm-7">
                         	<small>© Copyright 2012 - BisLite Inc. All rights reserved. Some free icons used here are created by Brankic1979.com.Client Logos are copyright and trademark of the respective owners / companies.</small>
                             </div>
-                            <div class="col-xs-offset-3 col-xs-6 col-lg-offset-3 col-lg-2">
+                            <div class="col-xs-offset-3 col-xs-3 col-sm-offset-3 col-sm-2">
                                 <img class="logo-main" src="images/logo-main.png">
                             </div>
                         </div>

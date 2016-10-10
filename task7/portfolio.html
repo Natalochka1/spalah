@@ -10,20 +10,21 @@
 <body>
 <div class="wrapper">
     <div class="block block-collapse">
-        <div class="block block-collapse bg-dark">
-            <div class="container">
-                <div class="block__header">
-                    <div class="row">
-                        <div class="col-lg-2">           
-                            <img class="logo-main" src="images/logo-main.png">
-                        </div>
-                            <div class="col-xs-offset-1 col-xs-7 col-lg-8">     
-                        <!-- <a class="logo-menu" href="#"><img class="logo-menu" src="images/logo-menu.png"></a> -->
-                           <div class="navbar pull-right" class="dropdown-toggle">    
-                                <ul class="menu-list pull-right">
-                                    <li class="nav__item pull-left"><a class="nav__link" href="#">HOME</a></li>
-                                    <li class="nav__item pull-left"><a class="nav__link" href="#">ABOUT US</a></li>
-                                    <li role="presentation" class="dropdown pull-left"><a class="dropdown-toggle nav__link" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">SERVISES<span class="caret"></span></a>
+        <nav class="navbar-default" role="navigation">
+            <div class="navbar-header">
+                <div class="container">
+                    <a class="navbar-brand navbar-left" href="#"><img class="logo-main" src="images/logo-main.png"></a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>     
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="menu-list pull-right">
+                                <li class="nav__item pull-left"><a class="nav__link" href="#">HOME</a></li>
+                                <li class="nav__item pull-left"><a class="nav__link" href="#">ABOUT US</a></li>
+                                <li role="presentation" class="dropdown pull-left"><a class="dropdown-toggle nav__link" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">SERVISES<span class="caret"></span></a>
                                     <ul class="dropdown-inner dropdown-toggle">
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Web Design</a></li>
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Wordpress Design</a></li>
@@ -31,8 +32,8 @@
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Internet Marketing</a></li>
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Social Media Management</a></li>
                                     </ul>
-                                    </li>
-                                    <li role="presentation" class="dropdown pull-left"><a class="dropdown-toggle nav__link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO<span class="caret"></span></a>
+                                </li>
+                                <li role="presentation" class="dropdown pull-left"><a class="dropdown-toggle nav__link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO<span class="caret"></span></a>
                                     <ul class="dropdown-inner dropdown-toggle" >
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Web Design</a></li>
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Wordpress Design</a></li>
@@ -40,17 +41,15 @@
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Internet Marketing</a></li>
                                         <li class="dropdown-item"><a class="dropdown-link" href="#">Social Media Management</a></li>
                                     </ul>
-                                    </li>                            
-                                    <li class="nav__item pull-left"><a class="nav__link" href="#">BLOG</a></li>
-                                    <li class="nav__item pull-left"><a class="nav__link" href="#">CONTACT US</a></li>
-                                </ul>
-                           </div>
+                                </li>                            
+                                <li class="nav__item pull-left"><a class="nav__link" href="#">BLOG</a></li>
+                                <li class="nav__item pull-left"><a class="nav__link" href="#">CONTACT US</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
+            </nav>               
         </div>
-    </div>
     <div class="block bg-light">
         <div class="block-inner">
             <div class="container">
@@ -72,13 +71,15 @@
                     </ul>
                 </div>
                 <div class="content-block"> 
-                    <div class="row row-padding">
+                    <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                             <div class="content-card">
                                 <img class="content-img" src="images/img16.png">
                                     <div class="content-overlay">
+                                        <div class="content-icon__box">
                                         <img class="content-icon" src="images/icon8.png">
                                         <img class="content-icon" src="images/icon9.png">
+                                        </div>
                                     </div>
                             </div>
                         </div>
@@ -110,7 +111,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row row-padding">
+                    <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                             <div class="content-card">
                                 <img class="content-img" src="images/img12.png">
@@ -148,7 +149,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row row-padding">
+                    <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                             <div class="content-card">
                                 <img class="content-img" src="images/img8.png">
@@ -227,86 +228,75 @@
                 </div>
                 <div class="pagination-block">
                 <nav>
-  <ul class="pagination">
-    <li><a href="#"><span aria-hidden="true">&laquo;</span><span class="sr-only">Попередня</span></a></li>
-    <li class="active"><a  href="#">1</a></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li><a href="#">5</a></li>
-    <li><a href="#"><span aria-hidden="true">&raquo;</span><span class="sr-only">Наступна</span></a></li>
-  </ul>
-</nav>
-                    <!-- <nav>
-                        <ul class="pagination">
-                            <li class="disabled"><a href="#"><span class="glyphicon glyphicon-backward" aria-hidden="true"></span></a></li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-forward" aria-hidden="true"></span></a></li>
-                        </ul>
-                    </nav> -->
+                    <ul class="pagination">
+                        <li><a href="#"><span aria-hidden="true">&laquo;</span><span class="sr-only">Попередня</span></a></li>
+                        <li class="active-color" class="navigation-main"><a  href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#"><span aria-hidden="true">&raquo;</span><span class="sr-only">Наступна</span></a></li>
+                    </ul>
+                </nav>
                 </div>                    
             </div>
         </div>
     </div>              
-    <div class="block-footer bg-dark">
-        <div class="block-inner">
-            <div class="container">
-                <div class="footer">
+        <div class="block-footer bg-dark">
+            <div class="block-inner">
+                <div class="container">
+                    <div class="footer">
                     <div class="row">
-                        <div class="col-lg-3">
-                        	<div class="title-footer">ABOUT US</div>
-                        		<div class="description-footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros. Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum molestie. </div>
+                        <div class="col-xs-2 col-sm-3">
+                            <div class="title-footer">ABOUT US</div>
+                                <div class="description-footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros. Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum molestie. </div>
                         </div>
-                        <div class="col-lg-1">
-                        	<div class="title-footer">EXPLORE</div>                       		
-                        		<a class="footer-link" href="#">Home</a>
-                        		<a class="footer-link" href="#">About Us</a>
-                        		<a class="footer-link" href="#">Services</a>
-                        		<a class="footer-link" href="#">Portfolio</a>
-                        		<a class="footer-link" href="#">Contact Us</a>
+                        <div class="col-xs-1 col-sm-1">
+                            <div class="title-footer">EXPLORE</div>                             
+                                <a class="footer-link" href="#">Home</a>
+                                <a class="footer-link" href="#">About Us</a>
+                                <a class="footer-link" href="#">Services</a>
+                                <a class="footer-link" href="#">Portfolio</a>
+                                <a class="footer-link" href="#">Blog</a>
                         </div>
-                        <div class="col-lg-offset-1 col-lg-2">
-                        <div class="title-footer">BROWSE</div><br>
-                        		<a class="footer-link" href="#"> Careers</a><br>
-                        		<a class="footer-link" href="#">Press&Media</a><br>
-                        		<a class="footer-link" href="#">Contact Us</a><br>
-                        		<a class="footer-link" href="#">Terms of Servise</a><br>
-                        		<a class="footer-link" href="#">Privacy Polic</a>
+                        <div class="col-xs-offset-1 col-xs-2 col-sm-offset-1 col-sm-2">
+                            <div class="title-footer">BROWSE</div><br>
+                                <a class="footer-link" href="#"> Careers</a><br>
+                                <a class="footer-link" href="#">Press&Media</a><br>
+                                <a class="footer-link" href="#">Contact Us</a><br>
+                                <a class="footer-link" href="#">Terms of Servise</a><br>
+                                <a class="footer-link" href="#">Privacy Polic</a>
                         </div>
-                        <div class="col-lg-2">
-                        	<div class="title-footer">CONTACT US</div>
-                        		<address class="address-list">
-                                    <strong>BisLife, Inc.</strong><br>
-                                    795 Folsom Ave, Suite 600<br>
-                                    San Francisco, CA 94107<br>
-                                    <strong> </strong><br>
-                                    <abbr title="Phone">Phone:</abbr> (123) 456-78-90<br>
-                                    <abbr title="Fax">Fax:</abbr> (343) 486-67-90
-                                </address>
+                        <div class="col-xs-2 col-sm-2">
+                            <div class="title-footer">CONTACT US</div>
+                            <address class="address-list">
+                                <strong>BisLife, Inc.</strong><br>
+                                795 Folsom Ave, Suite 600<br>
+                                San Francisco, CA 94107<br>
+                                <strong> </strong><br>
+                                <abbr title="Phone">Phone:</abbr> (123) 456-78-90<br>
+                                <abbr title="Fax">Fax:</abbr> (343) 486-67-90
+                            </address>
                         </div>
-                        <div class=" col-lg-3">
-                        	<div class="title-footer left-pull">CONNECT WITH US</div>
-                        		<div class="footer-img__block">
-                        		    <a href="#"><img class="footer-img" src="images/fb.png"></a>
-                        		    <a href="#"><img class="footer-img" src="images/dribbble.png"></a>
-                        		    <a href="#"><img class="footer-img" src="images/in.png"></a>
-                        		    <a href="#"><img class="footer-img" src="images/pinterest.png"></a>
-                        		    <a href="#"><img class="footer-img" src="images/skype.png"></a>
-                        		    <a href="#"><img class="footer-img" src="images/share.png"></a>
-                        		</div>
-                        	</div>
+                        <div class="col-xs-4 col-sm-3 col-md-3">
+                            <div class="title-footer left-pull">CONNECT WITH US</div>
+                                <div class="footer-img__block">
+                                    <a href="#"><img class="footer-img" src="images/fb.png"></a>
+                                    <a href="#"><img class="footer-img" src="images/dribbble.png"></a>
+                                    <a href="#"><img class="footer-img" src="images/in.png"></a>
+                                    <a href="#"><img class="footer-img" src="images/pinterest.png"></a>
+                                    <a href="#"><img class="footer-img" src="images/skype.png"></a>
+                                    <a href="#"><img class="footer-img" src="images/share.png"></a>
+                                </div>
                         </div>
+                    </div>
                 </div>
                 <div class="footer-bottom">
                     <div class="row">
-                        <div class="col-lg-7">
-                        	<small>© Copyright 2012 - BisLite Inc. All rights reserved. Some free icons used here are created by Brankic1979.com.Client Logos are copyright and trademark of the respective owners / companies.</small>
+                        <div class="col-xs-6 col-sm-7">
+                        <small>© Copyright 2012 - BisLite Inc. All rights reserved. Some free icons used here are created by Brankic1979.com.Client Logos are copyright and trademark of the respective owners / companies.</small>
                         </div>
-                        <div class="col-lg-offset-3 col-lg-2">
+                        <div class="col-xs-offset-3 col-xs-3 col-sm-offset-3 col-sm-2">
                             <img class="logo-main" src="images/logo-main.png">
                         </div>
                     </div>

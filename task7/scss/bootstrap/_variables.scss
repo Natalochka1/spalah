@@ -360,10 +360,10 @@ $container-lg:                 $container-large-desktop !default;
 
 //== Navbar
 //
-//##
+//#
 
 // Basics of a navbar
-$navbar-height:                    50px !default;
+$navbar-height:                    68px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
@@ -371,8 +371,8 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             #777 !default;
-$navbar-default-bg:                #f8f8f8 !default;
-$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-bg:                #e8ebf1;
+$navbar-default-border:            #e8ebf1;
 
 // Navbar links
 $navbar-default-link-color:                #777 !default;
@@ -452,22 +452,24 @@ $nav-pills-active-link-hover-color:         $component-active-color !default;
 //== Pagination
 //
 //##
+$black: #000;
+$bg-primary: #81e4ed;
 
-$pagination-color:                     #000 !default;
-$pagination-bg:                        #fff !default;
-$pagination-border:                    #ddd !default;
+$pagination-color:                     $black;
+$pagination-bg:                        #fff;
+$pagination-border:                    transparent;
 
-$pagination-hover-color:               $link-hover-color !default;
-$pagination-hover-bg:                  $gray-lighter !default;
-$pagination-hover-border:              #ddd !default;
+$pagination-hover-color:               $black;
+$pagination-hover-bg:                  $bg-primary;
+$pagination-hover-border:              transparent;
 
-$pagination-active-color:              #fff !default;
-$pagination-active-bg:                 #81e4ed !default;
-$pagination-active-border:             $brand-primary !default;
+$pagination-active-color:              $black;
+$pagination-active-bg:                 $bg-primary;
+$pagination-active-border:             transparent;
 
-$pagination-disabled-color:            $gray-light !default;
-$pagination-disabled-bg:               #fff !default;
-$pagination-disabled-border:           #ddd !default;
+$pagination-disabled-color:            $black;
+$pagination-disabled-bg:               #fff;
+$pagination-disabled-border:           transparent;
 
 $pagination-hover: transparent;
 $pagination-active: #000;

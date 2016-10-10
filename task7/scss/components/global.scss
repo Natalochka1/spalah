@@ -1,4 +1,4 @@
-$container-width: 1000px !default;
+// $container-width: 1000px !default;
 $container-gutter: 0 10px !default;
 
 html {
@@ -40,7 +40,7 @@ a{
 }
 .container{
 	margin: auto;
-	width: $container-width;
-	padding: 0 $container-gutter;
+	// width: $container-width;
+	padding: $container-gutter;
 }
 
