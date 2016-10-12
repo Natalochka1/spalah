@@ -5495,13 +5495,17 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination-block {
   display: block;
   margin: 0 auto;
-  max-width: 245px;
+  max-width: 305px;
   padding-top: 20px;
   border: none;
 }
 
-.active-color:active {
+.active {
   background-color: #81e4ed;
+}
+
+.gray {
+  background-color: #363636;
 }
 
 .pagination a {
@@ -8217,8 +8221,13 @@ h6,
 }
 
 .content-icon__box {
-  display: block;
-  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -45px;
+  margin-left: -70px;
+  width: 150px;
+  height: 90px;
 }
 
 .content-card:hover .content-overlay {
@@ -8406,13 +8415,17 @@ h6,
 .pagination-block {
   display: block;
   margin: 0 auto;
-  max-width: 245px;
+  max-width: 305px;
   padding-top: 20px;
   border: none;
 }
 
-.active-color:active {
+.active {
   background-color: #81e4ed;
+}
+
+.gray {
+  background-color: #363636;
 }
 
 .pagination a {

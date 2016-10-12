@@ -1,5 +1,6 @@
 $black: #000;
 $bg-primary: #81e4ed;
+$gray: #363636;
 
 $pagination-color:                     $black;
 $pagination-bg:                        #fff;
@@ -23,12 +24,15 @@ $pagination-active: #000;
 .pagination-block{
 	display: block;
 	margin: 0 auto;
-	max-width: 245px;
+	max-width: 305px;
 	padding-top: 20px;
 	border: none;
 }
-.active-color:active{
+.active{
 	background-color: $bg-primary;
+}
+.gray{
+  background-color: $gray;
 }
 .pagination a{
 	border: none;
