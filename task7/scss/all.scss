@@ -8,10 +8,6 @@
 @import "components/block.scss";
 @import "components/media.scss";
 
-
-
-
-
 // .block {
 // 	&-header {
 // 		background-color: blue;
@@ -38,42 +34,6 @@
 		background-color: #81e4ed;
 	}
 }
-// .wrapper{
-// 	max-width: 480px;
-// }
-// .container{
-// 	width: 320px;
-// 	margin: 0 10px;
-// }
-// .logo-menu{
-// 	float: right;
-// 	display: block;
-// }
-// .menu-list{
-// 	// display: none;
-// }
-// .carousel-title{
-// 	position: absolute;
-// 	left: 0;
-// 	top: 0;
-// }
-// .title-main{
-// 	font-size: $heading-font-size-6;
-// 	font-weight: $font-weight-bold;
-// 	font-family: $font-family;
-// 	text-align: left;
-// 	padding: 60px 0;
-// 	color: $white;
-// 	max-width: 300px;
-// }
-// .logo-menu:hover.navbar{
-//      display: block;
-//      cursor: pointer;
-// }
-
-
-
-
 .block__header{
 	padding: 40px 0 0 0;
 }
