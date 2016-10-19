@@ -13,7 +13,7 @@ $link-color-hover: lighten($link-color, 10%)!default;
 $link-decoration: none !default;
 $link-decoration-hover: none!default;
 $heading-font-family: inherit !default;
-$heading-font-weight: 700 !default;
+$heading-font-weight: 400 !default;
 $heading-color: #333;
 $heading-font-size-1: 36px !default;
 $heading-margin-1: 1em !default;
@@ -27,6 +27,15 @@ $heading-font-size-5: 14px !default;
 $heading-margin-5: 1em !default;
 $heading-font-size-6: 12px !default;
 $heading-margin-6: 1em !default;
+
+$breadcrumbs-bg-color: #e6e9ed;
+$breadcrumbs-text-color-light: #fff;
+$breadcrumbs-text-color-dark: #434a54;
+$breadcrumbs-item-bg-color: #3bafda;
+$breadcrumbs-item-bg-color-active: #4fc1e9;
+$breadcrumbs-separator-color: #2494be;
+
+
 body {
     color: $body-color;
     background-color: $body-bg;
@@ -44,8 +53,12 @@ a {
     color: $link-color;
     text-decoration: $link-decoration;
     &:hover {
-        color: $link-color-hover;
+        color: inherit;
         text-decoration: $link-decoration-hover;
+    }
+    &:focus{
+        text-decoration: none;
+        color: inherit;
     }
 }
 
