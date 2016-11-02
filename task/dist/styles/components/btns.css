@@ -1,0 +1,24 @@
+.btn {
+  display: inline-block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  font-weight: normal;
+  color: #333;
+  font-size: 16px;
+  background: #22c4a8;
+  border-radius: 4px;
+  padding: 10px 20px; }
+  .btn-search {
+    border: transparent;
+    background-color: transparent; }
+  .btn-primary {
+    background: #22c4a8;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid #22c4a8; }
+  .btn:hover {
+    color: white;
+    background: #22c4a8; }
