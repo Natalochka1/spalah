@@ -862,8 +862,7 @@ h6,
 
 .navbar-item {
   float: left;
-  list-style: none;
-  position: relative; }
+  list-style: none; }
 
 .navbar-link {
   padding: 15px;
@@ -877,23 +876,22 @@ h6,
   position: relative; }
 
 .dropdown {
-  position: relative;
-  padding: 15px;
-  color: #506a85;
-  font-weight: 700;
-  font-family: 'Lato', sans-serif; }
-  .dropdown:hover {
-    color: #22c4a8; }
+  padding: 20px; }
+
+.dropdown:hover,
+.dropdown:active {
+  background-color: #f5f7fa; }
 
 .sub-menu {
   display: none;
   position: absolute;
   top: 75px;
   left: 0;
+  right: 0;
   z-index: 1;
   padding: 10px 40px 40px 40px; }
 
-.navbar-menu.dropdown:hover .sub-menu {
+.navbar-menu:hover .sub-menu {
   display: block; }
 
 .title-menu {
