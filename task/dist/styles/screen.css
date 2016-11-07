@@ -876,9 +876,16 @@ h6,
   position: relative; }
 
 .dropdown {
-  padding: 20px; }
+  padding: 20px;
+  color: #506a85;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif; }
+  .dropdown:hover {
+    color: #22c4a8; }
 
-.dropdown:hover,
+.dropdown:hover {
+  background-color: #f5f7fa; }
+
 .dropdown:active {
   background-color: #f5f7fa; }
 
@@ -1019,8 +1026,9 @@ h6,
     padding: 5px 10px;
     font-size: 12px;
     border: none;
-    margin-top: 3px;
-    margin-left: 35px; }
+    position: absolute;
+    top: 4px;
+    right: 3px; }
   .btn:hover {
     background-color: #22c4a8;
     opacity: 0.6; }
@@ -1040,7 +1048,8 @@ h6,
 
 .form-block {
   background-color: #ccc;
-  height: 32px; }
+  height: 32px;
+  position: relative; }
 
 .navbar-footer {
   float: right; }

@@ -115,8 +115,16 @@
 }
 .dropdown{
 	padding: 20px;
+	color: $gray;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	&:hover{
+		color: $pimary;
+	}
 }
-.dropdown:hover,
+.dropdown:hover{
+	background-color: #f5f7fa;
+}
 .dropdown:active{
 	background-color: #f5f7fa;
 }
@@ -270,8 +278,9 @@
 		padding: 5px 10px;
 		font-size: 12px;
 		border: none;
-		margin-top: 3px;
-        margin-left: 35px;
+		position: absolute;
+		top: 4px;
+		right: 3px;
 	}
 	&:hover{
 		background-color: $pimary;
@@ -302,6 +311,7 @@
 .form-block{
 	background-color: #ccc;
 	height: 32px;
+	position: relative;
 }
 
 //footer//
