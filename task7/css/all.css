@@ -7957,6 +7957,14 @@ h6,
   padding: 10px 20px;
 }
 
+.btn-width {
+  width: 100%;
+}
+
+.form {
+  background-color: #ccc;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -7966,7 +7974,7 @@ h6,
   display: block;
   color: red;
   font-size: 14px;
-  background-color: #eaeef1;
+  background-color: #fff;
   border: 1px solid #eaeef1;
   border-radius: 2px;
   height: 44px;
@@ -7975,25 +7983,29 @@ h6,
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #fff;
+  color: #ccc;
   opacity: 1;
 }
 
 .form-control::-moz-placeholder {
-  color: #fff;
+  color: #ccc;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #fff;
+  color: #ccc;
   opacity: 1;
 }
 
 .form-label {
   display: block;
-  color: #eaeef1;
+  color: #ccc;
   font-size: 14px;
   margin-bottom: 4px;
+}
+
+.form-form-variant {
+  border-radius: 50px;
 }
 
 .block {

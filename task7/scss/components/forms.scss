@@ -1,5 +1,6 @@
+$color: #ccc;
 $form-color: red !default;
-$form-bg: #eaeef1 !default;
+$form-bg: #fff!default;
 $form-border: 1px solid #eaeef1 !default;
 $form-border-radius: 2px !default;
 $form-height: 44px !default;
@@ -8,7 +9,7 @@ $form-font-size: 14px !default;
 $form-line-height: 2 !default;
 $form-margin-bottom: 15px !default;
 
-$form-label-color: #eaeef1 !default;
+$form-label-color: #ccc !default;
 $form-label-font-size: 14px !default;
 $form-label-margin-bottom: 4px !default;
 
@@ -32,6 +33,7 @@ $form-label-margin-bottom: 4px !default;
 }
 
 .form {
+    background-color: #ccc;
 	&-group {
 		margin-bottom: $form-margin-bottom;
 	}
@@ -47,7 +49,7 @@ $form-label-margin-bottom: 4px !default;
         line-height: 1.4;
         $padding-y: ($form-height - ($form-font-size * $form-line-height)) / 2;
         padding: $padding-y $form-padding-x;
-        @include placeholder(#fff);
+        @include placeholder(#ccc);
     }
     &-label {
     	display: block;
@@ -55,4 +57,9 @@ $form-label-margin-bottom: 4px !default;
     	font-size: $form-label-font-size;
     	margin-bottom: $form-label-margin-bottom;
     }
+    &-form-variant{
+    border-radius: 50px;
 }
+}
+
+
